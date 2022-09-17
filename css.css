@@ -3,10 +3,18 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: rgb(245, 193, 60);
     border-radius: 20%;
-}
+};
 
 .image {
     border-radius: 50%;
-    border: 5px solid goldenrod
+    border: 5px solid goldenrod;
 
+};
+
+a {
+    color: palevioletred;
+};
+
+a:hover {
+    color:goldenrod;
 };
