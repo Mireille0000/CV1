@@ -1,7 +1,12 @@
 
  a {
-    color: palevioletred
+    color: rgb(164, 48, 86)
  }
+
+ a:hover {
+    color:goldenrod;
+    transition: 4s;
+}
 
  h3 {
     color: blueviolet;
@@ -19,11 +24,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 20%;
 }; 
-
-a:hover {
-    color:goldenrod;
-    transition: 2s;
-}
 
 .image {
     border-radius: 50%;
