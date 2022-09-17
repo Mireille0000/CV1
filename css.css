@@ -1,3 +1,4 @@
+
 h1 {
     color: rgb(21, 21, 199);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -5,16 +6,18 @@ h1 {
     border-radius: 20%;
 };
 
+
+a {
+    color: palevioletred
+}
+
+a:hover {
+    color:brown;
+}
+
 .image {
     border-radius: 50%;
     border: 5px solid goldenrod;
 
 };
 
-a {
-    color: palevioletred;
-};
-
-a:hover {
-    color:goldenrod;
-};
