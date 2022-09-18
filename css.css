@@ -7,6 +7,22 @@
    font-weight: bold;
  }
 
+ .image {
+   border-radius: 50%;
+   border: 5px solid goldenrod;
+};
+
+ th, td {
+   padding: 10px 15px;
+}
+
+ table {
+   weight: 500px;
+   background: radial-gradient(40% 50%, rgb(140, 184, 140), rgb(240, 240, 169)) ;
+}
+
+
+
  .paragraph {
    font: italic 23px 'Rajdhani', sans serif;
    color:brown;
@@ -43,8 +59,5 @@
     border-radius: 20%;
 }; 
 
-.image {
-    border-radius: 50%;
-    border: 5px solid goldenrod;
 
-};
+
