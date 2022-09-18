@@ -1,4 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+ 
+ body {
+   font-family: 'Rajdhani';
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: bold;
+ }
 
+ .paragraph {
+   font: italic 23px 'Rajdhani', sans serif;
+   color:brown;
+   font-weight: bold;
+}
+ .paragraph:hover {
+   color:blueviolet;
+   transition: 5s;
+ }
+ 
  a {
     color: rgb(164, 48, 86)
  }
@@ -30,4 +48,3 @@
     border: 5px solid goldenrod;
 
 };
-
