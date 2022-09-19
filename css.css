@@ -5,6 +5,7 @@
    font-size: 20px;
    line-height: 30px;
    font-weight: bold;
+   background: rgb(190, 206, 166);
  }
 
  .image {
@@ -24,8 +25,13 @@
 
  .paragraph {
    font: italic 23px 'Rajdhani', sans serif;
-   color:brown;
-   font-weight: bold;
+   background-color: bisque;
+   border: 3px solid brown;
+   border-radius: 10px;
+   padding: 10px 5px 15px 5px;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: brown;
 }
  .paragraph:hover {
    color:blueviolet;
@@ -45,7 +51,20 @@
     color: blueviolet;
  }
 
- .name {
+.card1 {
+      border-left: 5px solid blue;
+      background-color: azure;
+      border-top-right-radius: 10px;
+   }
+
+   .card2 {
+      border: 3px solid ghostwhite;
+      border-radius: 10px;
+      padding: 10px 5px 15px 5px;
+      background: radial-gradient(40% 50%, pink, rgb(143, 191, 223));
+      text-align: center;
+   }
+.name {
     color:rgb(21, 21, 199);
     border-radius: 20%;
     border: 8px solid rgb(183, 9, 67);
@@ -57,6 +76,4 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 20%;
 }; 
-
-
 
