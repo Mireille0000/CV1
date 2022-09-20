@@ -23,6 +23,12 @@
    text-align: left;
 }
 
+.container {
+   max-width: 750px;
+   margin: auto;
+   padding-top: 20px;
+ }
+
  .paragraph {
    font: italic 23px 'Rajdhani', sans serif;
    background-color: bisque;
