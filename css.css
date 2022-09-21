@@ -31,6 +31,7 @@
 
  .paragraph {
    font: italic 23px 'Rajdhani', sans serif;
+   text-align: justify;
    background-color: bisque;
    border: 3px solid brown;
    border-radius: 10px;
