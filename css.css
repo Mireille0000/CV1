@@ -49,9 +49,21 @@
     color: rgb(164, 48, 86)
  }
 
- a:hover {
-    color:goldenrod;
-    transition: 3s;
+  a:hover {
+      color:goldenrod;
+      transition: 3s; 
+      font-size: 2rem;
+  }
+
+.btn {
+   color:rgb(12, 28, 77);
+   background-color: rgb(185, 142, 142);
+   padding: 15px 15px;
+}
+
+.btn:hover {
+   color:aquamarine;
+   font-family: inherit;
 }
 
  h3 {
