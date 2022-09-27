@@ -10,6 +10,7 @@
 
  .image {
    border-radius: 50%;
+   display: block;
    border: 5px solid goldenrod;
 };
 
@@ -22,9 +23,10 @@
    padding: 0;
    list-style: none;
  }
-
+ 
  .list li {
-   margin-bottom: 10px;
+   margin-bottom: 15px;
+   padding-bottom: 5px;
    border-bottom: 2px solid rgb(164, 48, 86);
  }
 
@@ -32,7 +34,6 @@
       border: 3px solid ghostwhite;
       border-radius: 10px;
       padding: 10px 5px 15px 15px;
-      margin: 15px;
       background: radial-gradient(40% 50%, pink, rgb(143, 191, 223));
       text-align: center;
    }
@@ -43,11 +44,22 @@
    text-align: left;
 }
 
+table tr td:nth-child(odd) {
+   background-color: blanchedalmond;
+}
+
 table td:hover {
    background-color: mediumturquoise;
 }
 
 .container {
+   max-width: 900px;
+   margin: auto;
+   padding-top: 20px;
+   display: flex;
+ }
+
+ .nav {
    max-width: 900px;
    margin: auto;
    padding-top: 20px;
@@ -60,6 +72,7 @@ table td:hover {
    border: 3px solid brown;
    border-radius: 10px;
    padding: 10px 5px 15px 5px;
+   margin: 15px;
    margin-left: 10px;
    margin-right: 10px;
    color: brown;
@@ -79,14 +92,43 @@ a:hover {
       font-size: 2rem;
   }
 
+   
+.f-group label {
+   display: block;
+  }
+
+.f-group input {
+   width: 90%;
+   background-color: rgb(190, 206, 166);
+   border: none;
+   color: black;
+  }  
+
+  .f {
+   display: flex;
+  }
+
+.f .f-group {
+   display: inline-block;
+   width: 50%;
+   outline: none;
+   margin-bottom: 20px;
+}
+
+.f-group textarea {
+   width: 90%;
+   background-color: rgb(190, 206, 166);
+   border: none;
+   outline: none;
+}
+
 .btn {
    font-weight: bold;
-   color:rgb(12, 28, 77);
+   color: rgb(12, 28, 77);
    background-color: rgb(185, 142, 142);
    padding: 15px 15px;
    cursor: pointer;
-}
-
+} 
 
 .btn:hover {
    color:aquamarine;
