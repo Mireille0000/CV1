@@ -75,7 +75,6 @@ table td:hover {
  }
 
  .paragraph {
-   /* font: italic 23px 'Rajdhani', sans-serif; */
    text-align: justify;
    background-color: bisque;
    border: 3px solid brown;
