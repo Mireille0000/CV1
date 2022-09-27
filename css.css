@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
- 
+
+@media (max-width: 650px) {
+.container {
+   font: italic 15px 'Rajdhani', sans-serif;
+}
+}
+
  body {
    font-family: 'Rajdhani';
    font-size: 20px;
@@ -9,6 +15,8 @@
  }
 
  .image {
+   margin: 0px;
+   padding: 0px;
    border-radius: 50%;
    display: block;
    border: 5px solid goldenrod;
@@ -54,7 +62,8 @@ table td:hover {
 
 .container {
    max-width: 900px;
-   margin: auto;
+   position: relative;
+   margin: 0px;
    padding-top: 20px;
    display: flex;
  }
@@ -66,13 +75,12 @@ table td:hover {
  }
 
  .paragraph {
-   font: italic 23px 'Rajdhani', sans serif;
+   /* font: italic 23px 'Rajdhani', sans-serif; */
    text-align: justify;
    background-color: bisque;
    border: 3px solid brown;
    border-radius: 10px;
    padding: 10px 5px 15px 5px;
-   margin: 15px;
    margin-left: 10px;
    margin-right: 10px;
    color: brown;
