@@ -17,14 +17,33 @@
    padding: 10px 15px;
 }
 
+ .list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+
+ .list li {
+   margin-bottom: 10px;
+   border-bottom: 2px solid rgb(164, 48, 86);
+ }
+
+.card2 {
+      border: 3px solid ghostwhite;
+      border-radius: 10px;
+      padding: 10px 5px 15px 5px;
+      background: radial-gradient(40% 50%, pink, rgb(143, 191, 223));
+      text-align: center;
+   }
+
  table {
-   weight: 500px;
+   width: 500px;
    background: radial-gradient(40% 50%, rgb(140, 184, 140), rgb(240, 240, 169)) ;
    text-align: left;
 }
 
 .container {
-   max-width: 750px;
+   max-width: 900px;
    margin: auto;
    padding-top: 20px;
  }
@@ -79,13 +98,8 @@ a:hover {
       border-top-right-radius: 10px;
    }
 
-   .card2 {
-      border: 3px solid ghostwhite;
-      border-radius: 10px;
-      padding: 10px 5px 15px 5px;
-      background: radial-gradient(40% 50%, pink, rgb(143, 191, 223));
-      text-align: center;
-   }
+
+
 .name {
     color:rgb(21, 21, 199);
     border-radius: 20%;
