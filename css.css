@@ -61,9 +61,9 @@ table td:hover {
 }
 
 .container {
-   max-width: 900px;
    position: relative;
-   margin: 0px;
+   max-width: 1024px;
+   margin: 0 auto;
    padding-top: 20px;
    display: flex;
  }
